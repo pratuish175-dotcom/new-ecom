@@ -169,7 +169,6 @@ import authRoutes from "./src/routes/auth.js";
 import adminRoutes from "./src/routes/admin.js";
 import adminProductRoutes from "./src/routes/adminProduct.js";
 import orderRoutes from "./src/routes/orders.js";
-import orderRoutes from "./src/routes/orderroutes.js";
 
 
 dotenv.config();
@@ -207,3 +206,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
+
